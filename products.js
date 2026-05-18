@@ -253,7 +253,7 @@ const PRODUCTS = [
 /* ============ Utilities ============ */
 const krw = n => n.toLocaleString('ko-KR') + '원';
 const imgPath = (id, color) => `images/products/${id}-${color}.png`;
-const imgPathFromDir = (id, color) => `../images/products/${id}-${color}.png`;
+const imgPathFromDir = (id, color) => `images/products/${id}-${color}.png`;
 
 /* ============ Index: Render product grid ============ */
 function renderProductGrid() {
