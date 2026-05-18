@@ -1,4 +1,4 @@
-/* PIXCON — interactions */
+/* Analo — interactions */
 
 (() => {
   const header = document.getElementById('siteHeader');
